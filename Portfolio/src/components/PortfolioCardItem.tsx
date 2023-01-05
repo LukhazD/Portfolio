@@ -12,8 +12,8 @@ export default function PortfolioItem(props: Iprops){
         <Box sx={{
             display:'flex', 
             alignItems:'flex-end', 
-            width:'20em', 
-            height:'544px', 
+            minWidth:'20em', 
+            minHeight:'35em', 
             backgroundColor:'#D9D9D9', 
             cursor:'pointer', 
             borderRadius:'5px'}}>
